@@ -1,0 +1,117 @@
+#wrapper {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	border-style: solid;
+	margin:auto;
+	width:1000px;
+	
+}
+
+Header{
+	flex-basis:100%;
+	background-color:white;
+}
+
+nav{
+	flex-basis:100%;
+}
+
+main{
+	
+	flex-basis:100%;
+	min-height:200px;
+	background-color:white;
+	color:grey;
+}
+
+nav ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border:solid 2px;
+	overflow: hidden;
+	background-color:white;
+}
+
+nav li a {
+	display: block;
+	text-decoration: none;
+	background-color:white;
+	color:black;
+	padding:10px;
+	padding-left:28px;
+	padding-right:28px;
+}
+
+nav li a:hover {
+	background-color:red;
+}
+
+nav li {
+	float:right;
+}
+
+body{
+	font-size:20px;
+	font-family:sans-serif;
+	background-color: white;
+}
+
+h1,h2,p,h3,td,th{
+	color:black;
+}
+
+.banner{
+	width:1000px;
+	height:200px;
+}
+
+.bilde{
+	float:right;
+	height:300px;
+	width:400px;
+}
+
+table,th,td {
+	border: 2px solid white;
+    border-collapse: collapse;
+}
+
+th,td{
+	padding:5px;
+	padding-right:30px;
+}
+
+th{
+	background-color:white;
+}
+
+input[type="text"], select {
+	display: block; /* elementene havner på egne rader */
+	margin-top: 2px; /* litt mellomrom til elementet ovenfor */
+	margin-bottom: 30px; /* litt mellomrom til elementet nedenfor */
+	color: #666666; /* mørk grå tekstfarge */
+	border: 1px solid rgba(0,0,0,0.1); /* lys grå kantlinje */
+	border-radius: 4px; /* avrundet kantlinje */
+	padding: 5px; /* luft inni tekstboksene */
+	box-shadow: 0 1px 5px rgba(0,0,0,0.7); /* skygge på tekstboksene */
+	min-width: 130px; /* aldri smalere enn 130 px */
+	width: 50%; /* fyller ut hele "innpakningen" */
+}
+
+	
+button {
+	padding: 10px; /* luft inni knappen */
+	color: white; /* hvit tekstfarge */
+	border: 1px solid rgba(0, 0, 0, 0.1); /* lys grå kantlinje */
+	border-radius: 4px; /* avrunder kantene */
+	background-color: #f24822; /* bakgrunnsfarge */
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7); /* skygge bak knappen */	
+}
+
+button:active {
+transform: translate(10px,10px); /* 1px til høyre og 1px ned */
+}
+
